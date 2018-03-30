@@ -1,0 +1,17 @@
+{
+    "name": "OLED12864_I2C",
+    "version": "1.0.0",
+    "description": "makecode I2C OLED 128 x 64 Package for micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
