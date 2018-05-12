@@ -262,7 +262,7 @@ namespace OLED12864_I2C {
      * @param len is the length of line, eg: 10
      * @param color is line color, eg: 1
      */
-    //% blockId="OLED12864_I2C_HLINE" block="draw a horizontal line at x %x|y %y|number %num|color %color"
+    //% blockId="OLED12864_I2C_HLINE" block="draw a horizontal line at x %x|y %y|number %len|color %color"
     //% weight=71 blockGap=8
     export function hline(x: number, y: number, len: number, color: number = 1) {
         for (let i = x; i < (x + len); i++)
@@ -276,7 +276,7 @@ namespace OLED12864_I2C {
      * @param len is the length of line, eg: 10
      * @param color is line color, eg: 1
      */
-    //% blockId="OLED12864_I2C_VLINE" block="draw a vertical line at x %x|y %y|number %num|color %color"
+    //% blockId="OLED12864_I2C_VLINE" block="draw a vertical line at x %x|y %y|number %len|color %color"
     //% weight=72 blockGap=8
     export function vline(x: number, y: number, len: number, color: number = 1) {
         for (let i = y; i < (y + len); i++)
