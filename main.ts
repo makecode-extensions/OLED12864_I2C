@@ -168,7 +168,7 @@ namespace OLED12864_I2C {
         cmd1(0xb0 | page) // page number
         let c = col * (_ZOOM + 1)
         cmd1(0x00 | (c % 16)) // lower start column address
-        cmd1(0x10 | (c / 16)) // upper start column address    
+        cmd1(0x10 | (c >> 4)) // upper start column address    
     }
 
     // clear bit
@@ -187,7 +187,7 @@ namespace OLED12864_I2C {
     //% blockId="OLED12864_I2C_PIXEL" block="set pixel at x %x|y %y|color %color"
     //% weight=70 blockGap=8
     export function pixel(x: number, y: number, color: number = 1) {
-        let page = y / 8
+        let page = y >> 3
         let shift_page = y % 8
         let ind = x * (_ZOOM + 1) + page * 128 + 1
         let b = (color) ? (_screen[ind] | (1 << shift_page)) : clrbit(_screen[ind], shift_page)
