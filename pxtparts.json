@@ -1,0 +1,68 @@
+{
+  "OLED12864_I2C": {
+    "visual": {
+      "image": "parts/OLED12864_I2C.svg",
+      "width": 82,
+      "height": 82,
+      "pinDistance": 7.2,
+      "pinLocations": [
+        {
+          "x": 29,
+          "y": 5
+        },
+        {
+          "x": 37,
+          "y": 5
+        },
+        {
+          "x": 44,
+          "y": 5
+        },
+        {
+          "x": 51,
+          "y": 5
+        }
+      ]
+    },
+    "numberOfPins": 4,
+    "instantiation": {
+      "kind": "function",
+      "fullyQualifiedName": "OLED12864_I2C.pixel,OLED12864_I2C.showString,OLED12864_I2C.showNumber,OLED12864_I2C.hline,OLED12864_I2C.vline,OLED12864_I2C.rect,OLED12864_I2C.invert,OLED12864_I2C.draw,OLED12864_I2C.clear,OLED12864_I2C.on,OLED12864_I2C.off,OLED12864_I2C.zoom,OLED12864_I2C.init",
+      "argumentRoles": [{
+                    "pinInstantiationIdx": 0
+                }]
+    },
+    "pinDefinitions": [
+      {
+        "target": "threeVolt",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "ground",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "SCL",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "SDA",
+        "style": "male",
+        "orientation": "+Y"
+      }
+    ],
+    "assembly": [
+      {
+        "pinIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  }
+}

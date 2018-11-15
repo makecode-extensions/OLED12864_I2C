@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   enable-background="new 0 0 82 82"
+   gorn="0"
+   height="1.13889in"
+   id="Layer_1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="OLED12864_I2C.svg"
+   version="1.1"
+   viewBox="0 0 82 82"
+   width="1.13889in"
+   x="0px"
+   xml:space="preserve"
+   y="0px">
+  <metadata
+   id="metadata3948">
+    <rdf:RDF>
+      <cc:Work
+   rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+   rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+   id="defs3946" />
+  <sodipodi:namedview
+   bordercolor="#666666"
+   borderopacity="1"
+   gridtolerance="10"
+   guidetolerance="10"
+   id="namedview3944"
+   inkscape:current-layer="g3941"
+   inkscape:cx="52.227523"
+   inkscape:cy="63.346262"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:snap-grids="true"
+   inkscape:snap-object-midpoints="false"
+   inkscape:snap-page="true"
+   inkscape:snap-to-guides="false"
+   inkscape:window-height="1017"
+   inkscape:window-maximized="1"
+   inkscape:window-width="1920"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:zoom="6.9695052"
+   objecttolerance="10"
+   pagecolor="#ffffff"
+   showgrid="false"
+   inkscape:snap-text-baseline="true" />
+  <desc
+   id="desc3823">
+    <referenceFile>SSD1306_I2C_128x64BB.svg</referenceFile>
+  </desc>
+  <g
+   id="g3941"
+   style="display:inline">
+    <path
+   d="M 77.363,0.153 H 3.946 c -1.66,0 -4.006,2.571 -4.006,5.745 v 70.205 c 0,3.171 2.346,5.743 4.006,5.743 H 78.05 c 1.66,0 4.009,-2.572 4.009,-5.743 V 5.897 c 0,-3.173 -3.036,-5.744 -4.696,-5.744 z M 13.052,80.501 v 0.006 h -0.047 c -0.094,0.006 -0.183,0.026 -0.276,0.026 -0.112,0 -0.22,-0.021 -0.328,-0.026 H 8.052 c -0.108,0.008 -0.215,0.026 -0.327,0.026 -2.313,0 -4.188,-1.875 -4.188,-4.188 0,-2.312 1.875,-4.188 4.188,-4.188 h 5.327 v 0.033 c 2.158,0.168 3.863,1.953 3.863,4.154 0,2.204 -1.703,3.989 -3.863,4.157 z m 0.625,-69.875 v 0.005 H 13.63 c -0.094,0.006 -0.183,0.028 -0.276,0.028 -0.112,0 -0.22,-0.019 -0.328,-0.028 H 8.677 C 8.569,10.64 8.462,10.659 8.35,10.659 6.037,10.659 4.162,8.784 4.162,6.471 4.162,4.158 6.036,2.283 8.35,2.283 h 5.327 v 0.033 c 2.158,0.168 3.863,1.953 3.863,4.155 0,2.202 -1.703,3.987 -3.863,4.155 z m 60.5,69.625 v 0.006 H 74.13 c -0.094,0.006 -0.183,0.026 -0.276,0.026 -0.112,0 -0.22,-0.021 -0.328,-0.026 h -4.349 c -0.108,0.008 -0.215,0.026 -0.327,0.026 -2.313,0 -4.188,-1.875 -4.188,-4.188 0,-2.312 1.875,-4.188 4.188,-4.188 h 5.327 v 0.033 c 2.158,0.168 3.863,1.953 3.863,4.154 0,2.204 -1.703,3.989 -3.863,4.157 z m 1,-69.251 v 0.006 H 75.13 c -0.094,0.006 -0.183,0.027 -0.276,0.027 -0.112,0 -0.22,-0.02 -0.328,-0.027 h -4.349 c -0.108,0.008 -0.215,0.027 -0.327,0.027 -2.313,0 -4.188,-1.875 -4.188,-4.188 0,-2.313 1.875,-4.188 4.188,-4.188 h 5.327 V 2.69 c 2.158,0.168 3.863,1.953 3.863,4.155 0,2.202 -1.703,3.988 -3.863,4.155 z"
+   id="path3825"
+   inkscape:connector-curvature="0"
+   style="fill:#006699" />
+    <rect
+   height="7.427"
+   id="rect3827"
+   width="3.7130001"
+   x="28.021"
+   y="1.473"
+   style="fill:#454545" />
+    <polygon
+   id="polygon3829"
+   points="28.021,8.899 26.163,7.041 26.163,3.328 28.021,1.473 "
+   style="fill:#454545" />
+    <polygon
+   id="polygon3831"
+   points="33.593,7.041 31.732,8.899 31.732,1.473 33.593,3.328 "
+   style="fill:#454545" />
+    <rect
+   gorn="0.1.4"
+   height="1.668"
+   id="connector1pin"
+   width="1.312"
+   x="29.223"
+   y="4.349"
+   style="fill:#b68b2d" />
+    <rect
+   height="7.427"
+   id="rect3834"
+   width="3.7130001"
+   x="35.223"
+   y="1.473"
+   style="fill:#454545" />
+    <polygon
+   id="polygon3836"
+   points="35.223,8.899 33.363,7.041 33.363,3.328 35.223,1.473 "
+   style="fill:#454545" />
+    <polygon
+   id="polygon3838"
+   points="40.792,7.041 38.934,8.899 38.934,1.473 40.792,3.328 "
+   style="fill:#454545" />
+    <rect
+   gorn="0.1.8"
+   height="1.668"
+   id="connector2pin"
+   width="1.312"
+   x="36.421001"
+   y="4.349"
+   style="fill:#b68b2d" />
+    <rect
+   height="7.427"
+   id="rect3841"
+   width="3.7130001"
+   x="42.421001"
+   y="1.473"
+   style="fill:#454545" />
+    <polygon
+   id="polygon3843"
+   points="42.421,8.899 40.564,7.041 40.564,3.328 42.421,1.473 "
+   style="fill:#454545" />
+    <polygon
+   id="polygon3845"
+   points="47.992,7.041 46.134,8.899 46.134,1.473 47.992,3.328 "
+   style="fill:#454545" />
+    <rect
+   gorn="0.1.12"
+   height="1.668"
+   id="connector3pin"
+   width="1.312"
+   x="43.622002"
+   y="4.349"
+   style="fill:#b68b2d" />
+    <rect
+   height="7.427"
+   id="rect3848"
+   width="3.7130001"
+   x="49.622002"
+   y="1.473"
+   style="fill:#454545" />
+    <polygon
+   id="polygon3850"
+   points="49.622,8.899 47.764,7.041 47.764,3.328 49.622,1.473 "
+   style="fill:#454545" />
+    <polygon
+   id="polygon3852"
+   points="55.191,7.041 53.333,8.899 53.333,1.473 55.191,3.328 "
+   style="fill:#454545" />
+    <rect
+   gorn="0.1.16"
+   height="1.668"
+   id="connector4pin"
+   width="1.312"
+   x="50.82"
+   y="4.349"
+   style="fill:#b68b2d" />
+    
+    
+    
+    
+    <circle
+   connectorname="+3V3"
+   cx="40"
+   cy="103"
+   gorn="0.3.0.8"
+   id="connector5pin"
+   r="1.96866"
+   style="fill:none;stroke:#9a916c;stroke-width:1.10267997" />
+    <circle
+   connectorname="GND"
+   cx="50"
+   cy="103"
+   gorn="0.3.0.9"
+   id="connector6pin"
+   r="1.96866"
+   style="fill:none;stroke:#9a916c;stroke-width:1.10267997" />
+    <circle
+   connectorname="SCL"
+   cx="60"
+   cy="103"
+   gorn="0.3.0.10"
+   id="connector7pin"
+   r="1.96866"
+   style="fill:none;stroke:#9a916c;stroke-width:1.10267997" />
+    <circle
+   connectorname="SDA"
+   cx="70"
+   cy="103"
+   gorn="0.3.0.11"
+   id="connector8pin"
+   r="1.96866"
+   style="fill:none;stroke:#9a916c;stroke-width:1.10267997" />
+    <rect
+   height="46.322834"
+   id="rect3895"
+   style="fill:#000000;fill-opacity:1"
+   width="79.447838"
+   x="1.238"
+   y="12.726" />
+    <rect
+   height="43.5"
+   id="rect3897"
+   style="fill:#000055;fill-opacity:1"
+   width="76.125"
+   x="2.8977768"
+   y="14.208611" />
+    <g
+   id="g3909"
+   transform="translate(30.7334,64.6006)" />
+    <rect
+   height="23.028872"
+   id="rect3733"
+   style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:0.74308664"
+   width="29.055119"
+   x="26.580053"
+   y="58.97113" />
+    <rect
+   height="57.141735"
+   id="rect4555"
+   style="opacity:1;fill:#000000;fill-opacity:0.21226418;stroke-width:0.74999923"
+   width="82"
+   x="-1.3652274e-014"
+   y="11.944881" />
+  <text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.86381531px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09659513"
+   x="32.682541"
+   y="9.942894"
+   id="text4555"
+   transform="scale(0.81294904,1.2300894)"><tspan
+     sodipodi:role="line"
+     id="tspan4553"
+     x="32.682541"
+     y="9.942894"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.86381531px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.09659513">VCC GND SCL SDA</tspan></text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.29831314px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.88246036"
+   x="4.1033893"
+   y="35.241863"
+   id="text4593"
+   transform="scale(0.88832649,1.1257122)"><tspan
+     sodipodi:role="line"
+     id="tspan4591"
+     x="4.1033893"
+     y="35.241863"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.29831314px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#00ffff;stroke-width:0.88246036">OLED</tspan></text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.05622864px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47639915"
+   x="2.7241161"
+   y="61.896179"
+   id="text4597"
+   transform="scale(1.1061062,0.90407234)"><tspan
+     sodipodi:role="line"
+     id="tspan4595"
+     x="2.7241161"
+     y="61.896179"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.05622864px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;stroke-width:0.47639915">128x64</tspan></text>
+</g>
+</svg>
