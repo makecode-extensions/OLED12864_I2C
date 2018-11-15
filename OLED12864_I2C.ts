@@ -4,7 +4,7 @@
 * http://www.micropython.org.cn
 */
 
-//% weight=100 color=#0855AA icon="O" block="OLED12864 I2C"
+//% weight=20 color=#0855AA icon="O" block="OLED12864_I2C"
 namespace OLED12864_I2C {
     let font: number[] = [];
     font[0] = 0x0022d422;
@@ -185,6 +185,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_PIXEL" block="set pixel at x %x|y %y|color %color"
     //% weight=70 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function pixel(x: number, y: number, color: number = 1) {
         let page = y >> 3
         let shift_page = y % 8
@@ -214,6 +215,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_SHOWSTRING" block="show string at x %x|y %y|text %s|color %color"
     //% weight=80 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function showString(x: number, y: number, s: string, color: number = 1) {
         let col = 0
         let p = 0
@@ -250,6 +252,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_NUMBER" block="show a Number at x %x|y %y|number %num|color %color"
     //% weight=80 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function showNumber(x: number, y: number, num: number, color: number = 1) {
         showString(x, y, num.toString(), color)
     }
@@ -263,6 +266,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_HLINE" block="draw a horizontal line at x %x|y %y|number %len|color %color"
     //% weight=71 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function hline(x: number, y: number, len: number, color: number = 1) {
         for (let i = x; i < (x + len); i++)
             pixel(i, y, color)
@@ -277,6 +281,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_VLINE" block="draw a vertical line at x %x|y %y|number %len|color %color"
     //% weight=72 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function vline(x: number, y: number, len: number, color: number = 1) {
         for (let i = y; i < (y + len); i++)
             pixel(x, i, color)
@@ -292,6 +297,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_RECT" block="draw a rectangle at x1 %x1|y1 %y1|x2 %x2|y2 %y2|color %color"
     //% weight=73 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function rect(x1: number, y1: number, x2: number, y2: number, color: number = 1) {
         if (x1 > x2)
             x1 = [x2, x2 = x1][0];
@@ -309,6 +315,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_INVERT" block="invert display %d"
     //% weight=65 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function invert(d: boolean = true) {
         let n = (d) ? 0xA7 : 0xA6
         cmd1(n)
@@ -319,6 +326,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_DRAW" block="draw"
     //% weight=64 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function draw() {
         set_pos()
         pins.i2cWriteBuffer(_I2CAddr, _screen)
@@ -329,6 +337,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_CLEAR" block="clear"
     //% weight=63 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function clear() {
         _screen.fill(0)
         _screen[0] = 0x40
@@ -340,6 +349,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_ON" block="turn on"
     //% weight=62 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function on() {
         cmd1(0xAF)
     }
@@ -349,6 +359,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_OFF" block="turn off"
     //% weight=61 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function off() {
         cmd1(0xAE)
     }
@@ -359,6 +370,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_ZOOM" block="zoom %d"
     //% weight=60 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function zoom(d: boolean = true) {
         _ZOOM = (d) ? 1 : 0
         cmd2(0xd6, _ZOOM)
@@ -370,6 +382,7 @@ namespace OLED12864_I2C {
      */
     //% blockId="OLED12864_I2C_init" block="init OLED with addr %addr"
     //% weight=100 blockGap=8
+    //% parts=OLED12864_I2C trackArgs=0
     export function init(addr: number) {
         _I2CAddr = addr;
         cmd1(0xAE)       // SSD1306_DISPLAYOFF
