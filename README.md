@@ -1,24 +1,39 @@
 # I2C OLED 128x64
 
-makecode I2C OLED 128x64 package for micro:bit.  
+makecode I2C OLED 128x64 extension for micro:bit.  
 
 Part of the drive base on fizban99's microbit OLED driver:  
-https://github.com/fizban99/microbit_ssd1306
+https://github.com/fizban99/microbit_ssd1306  
 
 Author: shaoziyang  
 Date:   2018.Mar  
 
-![](https://raw.githubusercontent.com/microbit-makecode-packages/OLED12864_I2C/master/icon.png)  
+![](oled.png)  
   
 
-## usage
+## Add extension
 
-open your microbit makecode project, in Add Package, paste  
+open your microbit makecode project, in Extension, paste  
 
-https://github.com/microbit-makecode-packages/OLED12864_I2C  
+https://github.com/makecode-extensions/OLED12864_I2C  
 
-to search box then search.
+to search box then search, and click to add.  
 
+## Basic usage
+
+```
+let item = 0
+OLED12864_I2C.init(60)
+OLED12864_I2C.rect(0, 0, 60, 30, 1)
+OLED12864_I2C.showString(0, 0, "Hello!", 1)
+OLED12864_I2C.showString(0, 1, "1234567890", 0)
+item = 0
+basic.forever(() => {
+    OLED12864_I2C.showNumber(0, 3, item, 1)
+    item += 1
+    basic.pause(1000)
+}) 
+```
 
 ## API
 
@@ -87,7 +102,7 @@ draw a rectangle.
 
 ## Demo
 
-![](https://raw.githubusercontent.com/microbit-makecode-packages/OLED12864_I2C/master/demo.png)  
+![](demo.png)  
 
 
 
