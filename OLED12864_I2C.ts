@@ -87,7 +87,7 @@ namespace OLED12864_I2C {
     font[77] = 0x01f1105f;
     font[78] = 0x01f4105f;
     font[79] = 0x0007462e;
-    font[81] = 0x000114bf;
+    font[80] = 0x000114bf;
     font[81] = 0x000b6526;
     font[82] = 0x010514bf;
     font[83] = 0x0004d6b2;
