@@ -375,7 +375,66 @@ namespace OLED12864_I2C {
         _ZOOM = (d) ? 1 : 0
         cmd2(0xd6, _ZOOM)
     }
-
+/**
+ * draw an outlined circle
+ * @param x0 is the x coordinate of the center, eg: 0
+ * @param y0 is the y coordinate of the center, eg: 0
+ * @param r is the radius of the circle, eg: 10
+ * @param color is the color of the circle, eg: 1
+ */
+//% blockId="OLED12864_I2C_OUTLINEDCIRCLE" block="draw outlined circle at x %x0|y %y0|radius %r|color %color"
+export function outlinedCircle(x0: number, y0: number, r: number, color: number = 1) {
+    let x = r;
+    let y = 0;
+    let err = 0;
+    while (x >= y) {
+        pixel(x0 + x, y0 + y, color);
+        pixel(x0 + y, y0 + x, color);
+        pixel(x0 - y, y0 + x, color);
+        pixel(x0 - x, y0 + y, color);
+        pixel(x0 - x, y0 - y, color);
+        pixel(x0 - y, y0 - x, color);
+        pixel(x0 + y, y0 - x, color);
+        pixel(x0 + x, y0 - y, color);
+        y += 1;
+        if (err <= 0) {
+            err += 2 * y + 1;
+        } else {
+            x -= 1;
+            err -= 2 * x + 1;
+        }
+    }
+}
+  /**
+ * draw a filled circle
+ * @param x0 is the x coordinate of the center, eg: 0
+ * @param y0 is the y coordinate of the center, eg: 0
+ * @param r is the radius of the circle, eg: 10
+ * @param color is the color of the circle, eg: 1
+ */
+//% blockId="OLED12864_I2C_FILLEDCIRCLE" block="draw filled circle at x %x0|y %y0|radius %r|color %color"
+export function filledCircle(x0: number, y0: number, r: number, color: number = 1) {
+    let x = r;
+    let y = 0;
+    let err = 0;
+    while (x >= y) {
+        for (let i = -x; i <= x; i++) {
+            pixel(x0 + i, y0 + y, color);
+            pixel(x0 + i, y0 - y, color);
+        }
+        for (let i = -y; i <= y; i++) {
+            pixel(x0 + i, y0 + x, color);
+            pixel(x0 + i, y0 - x, color);
+        }
+        y += 1;
+        if (err <= 0) {
+            err += 2 * y + 1;
+        } else {
+            x -= 1;
+            err -= 2 * x + 1;
+        }
+    }
+ }  
     /**
      * OLED initialize
      * @param addr is i2c addr, eg: 60
