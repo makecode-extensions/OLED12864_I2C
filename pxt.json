@@ -1,19 +1,17 @@
 {
-    "name": "OLED12864_I2C",
-    "version": "1.5.0",
-    "description": "makecode I2C OLED 128 x 64 extension for micro:bit",
-    "license": "MIT",
-    "dependencies": {
-        "core": "*"
-    },
-    "files": [
-        "README.md",
-        "pxtparts.json",
-        "OLED12864_I2C.ts",
-        "parts/OLED12864_I2C.svg"
-    ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "public": true
+  "name": "OLED12864_I2C",
+  "version": "1.5.1",
+  "description": "makecode I2C OLED 128 x 64 extension for micro:bit",
+  "license": "MIT",
+  "dependencies": {
+    "core": "*"
+  },
+  "files": [
+    "README.md",
+    "pxtparts.json",
+    "OLED12864_I2C.ts",
+    "parts/OLED12864_I2C.svg"
+  ],
+  "testFiles": ["test.ts"],
+  "public": true
 }
